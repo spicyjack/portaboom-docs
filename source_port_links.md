@@ -8,6 +8,7 @@
 - Command line arguments:
   http://www.chocolate-doom.org/wiki/index.php/Command_line_arguments
 - License: GPLv2 or later
+- Renderer: software
 - SDL requirements: mixer, net
 
 ### Doom Legacy ###
@@ -18,6 +19,7 @@
 - Command line arguments: http://tinyurl.com/nez6q4 (SVN repo;
   doomlegacy/legacy/trunk/docs/legacy.html)
 - License: GPLv2 or later
+- Renderer: software, OpenGL
 - SDL requirements: mixer, video
 
 ### DoomsdayEngine ###
@@ -30,6 +32,7 @@
 - Command line arguments:
   http://www.dengine.net/dew/index.php?title=Command_line_options_reference
 - License: GPLv2 or later
+- Renderer: software?, OpenGL?
 - SDL requirements: mixer, net  
 
 ### EDGE (Enhanced Doom Game Engine) ###
@@ -37,6 +40,7 @@
 - Downloads: http://sourceforge.net/projects/edge/files/EDGE%20Source%20Code/
 - Command line arguments: http://tinyurl.com/lrhguc (SVN HEAD)
 - License: GPLv2 or later
+- Renderer: software?, OpenGL?
 - SDL requirements: image, mixer, net  
 
 ### Eternity Engine ###
@@ -46,6 +50,7 @@
 - Command line arguments:
   http://eternity.youfailit.net/index.php?title=List_of_command_line_parameters
 - License: GPLv2
+- Renderer: software?, OpenGL?
 - SDL requirements: mixer, net, video
 
 ### GZDoom ###
@@ -56,6 +61,7 @@
 - Command line arguments: http://zdoom.org/wiki/Command_line_parameters
 - Compiling: http://zdoom.org/wiki/Compile_ZDoom_on_Linux
 - License: [idSoftwareDoomLicense]
+- Renderer: OpenGL
 - SDL requirements: video
 
 ### Odamex ###
@@ -63,6 +69,7 @@
 - Downloads: http://sourceforge.net/projects/odamex/files/
 - Command line arguments: Source code
 - License: GPLv2 or later
+- Renderer: software?, OpenGL?
 - SDL requirements: mixer, video
 
 ### PrBoom ###
@@ -70,6 +77,7 @@
 - Downloads: http://sourceforge.net/projects/prboom/files/
 - Command line arguments: http://tinyurl.com/mqyeza (SVN HEAD)
 - License: GPLv2 or later
+- Renderer: software, OpenGL
 - SDL requirements: mixer, net
 
 ### PrBoom+ ###
@@ -77,6 +85,7 @@
 - Downloads: http://sourceforge.net/projects/prboom-plus/files/
 - Command line arguments: http://tinyurl.com/mqyeza
 - License: GPLv2 or later
+- Renderer: software, OpenGL
 - SDL requirements: mixer, net
 
 ### ReMooD ###
@@ -84,6 +93,8 @@
 - Downloads: http://remood.org/?page=download
 - Command line arguments: http://tinyurl.com/nrapnf (SVN HEAD)
 - License: GPLv3 or later (in repo, 08a is still GPL2)
+- Renderer: software?, OpenGL?
+- SDL requirements: ?
 
 ### Vavoom ###
 - Homepage: http://vavoom-engine.com/
@@ -91,6 +102,7 @@
 - Command line arguments:
   http://vavoom-engine.com/wiki/index.php?title=Command_line_arguments
 - License: GPLv2 or later
+- Renderer: software?, OpenGL?
 - SDL requirements: mixer, video
 
 ### ZDoom ###
@@ -99,6 +111,7 @@
 - Command line arguments: http://zdoom.org/wiki/Command_line_parameters
 - Compiling: http://zdoom.org/wiki/Compile_ZDoom_on_Linux
 - License: [idSoftwareDoomLicense]
+- Renderer: software
 - SDL requirements: video
 
 ## Quake Source Ports ##
@@ -106,81 +119,107 @@
 ### Darkplaces ###
 - Homepage:
 - License: GPLv2 or later
+- Renderer: ?
 - SDL requirements: video
 
 ### EZQuake ###
 - Homepage:
+- Renderer: ?
 - License: GPLv2 or later
 
 ### Fitzquake ###
 - Homepage:
+- Renderer: ?
 - License: GPLv2 or later
 - Doesn't build
 
 ### FODQuake ###
 - Homepage:
 - License: GPLv2 or later
+- Renderer: ?
 
 ### FTEQuake ###
 - Homepage:
 - License: GPLv2 or later
+- Renderer: ?
 - SDL requirements: video
 
 ### JoeQuake ###
 - Homepage:
 - License: GPLv2 or later
+- Renderer: ?
 - SDL requirements: video
 - Doesn't build
 
 ### Quakeforge ###
 - Homepage:
 - License: GPLv2 or later
+- Renderer: ?
 - SDL requirements: video
 
 ### Quakespasm ###
 - Homepage:
 - License: GPLv2 or later
+- Renderer: ?
 - SDL requirements: net
 
 ### Quore ###
 - Homepage:
 - License: GPLv2 or later
+- Renderer: ?
 
 ### TyrQuake ###
 - Homepage:
 - License: GPLv2 or later
+- Renderer: ?
 
 ## Library Dependencies ##
 
-### libSDL ###
+### libSDL (base, mixer, net, image, ttf) ###
+- License: LGPL2 or later
 
 ### alsa-lib ##
+- License: ?
 
 ### dbus ###
+- License: ?
 
 ### expat ###
+- License: ?
 
 ### flac ###
+- License: ?
 
 ### fluidsynth ###
+- License: ?
 
 ### libffi ###
+- License: ?
 
 ### libmikmod ###
+- License: ?
 
 ### libogg ###
+- License: ?
 
 ### libsndfile ###
+- License: ?
 
 ### libvorbis ###
+- License: ?
 
 ### smpeg ###
+- License: ?
 
 ### util-linux ###
+- License: ?
 
 ### libglib ###
+- License: ?
 
 ### pkg-config ###
+- License: ?
+
 # Misc #
 
 ## Generating lists of files that use SDL ## Generate a list of files that
