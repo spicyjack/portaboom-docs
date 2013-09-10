@@ -32,7 +32,7 @@
 - Command line arguments:
   http://www.dengine.net/dew/index.php?title=Command_line_options_reference
 - License: GPLv2 or later
-- Renderer: software?, OpenGL?
+- Renderer: OpenGL
 - SDL requirements: mixer, net  
 
 ### EDGE (Enhanced Doom Game Engine) ###
@@ -176,48 +176,63 @@
 ## Library Dependencies ##
 
 ### libSDL (base, mixer, net, image, ttf) ###
-- License: LGPL2 or later
+- Homepage:
+- License: LGPL2.1 or later
 
 ### alsa-lib ##
-- License: ?
+- Homepage:
+- License: LGPL2.1 or later
 
 ### dbus ###
-- License: ?
+- Homepage:
+- License: Academic License 2.1 **or** GPL2 or later
 
 ### expat ###
-- License: ?
+- Homepage:
+- License: Expat license (X11-ish)
 
 ### flac ###
-- License: ?
+- Homepage:
+- License: libFLAC: 3-clause BSD., flac: GPL2 or later
 
 ### fluidsynth ###
-- License: ?
+- Homepage:
+- License: LGPL2 or later
 
 ### libffi ###
-- License: ?
+- Homepage:
+- License: X11
 
 ### libmikmod ###
-- License: ?
+- Homepage:
+- License: LGPL2 or later
 
 ### libogg ###
+- Homepage:
 - License: ?
 
 ### libsndfile ###
+- Homepage:
 - License: ?
 
 ### libvorbis ###
+- Homepage:
 - License: ?
 
 ### smpeg ###
+- Homepage:
 - License: ?
 
 ### util-linux ###
+- Homepage:
 - License: ?
 
 ### libglib ###
+- Homepage:
 - License: ?
 
 ### pkg-config ###
+- Homepage:
 - License: ?
 
 # Misc #
