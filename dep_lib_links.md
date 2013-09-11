@@ -3,13 +3,13 @@
 ## libSDL (base, mixer, net, image, ttf) ##
 - Homepage: http://www.libsdl.org/
 - Downloads: http://www.libsdl.org/download-1.2.php
-- License: LGPL2.1 or later
+- License: Lesser GPL 2.1 or later
 - Builds with: GNU `make`
 
 ## alsa-lib ##
 - Homepage: http://www.alsa-project.org/main/index.php/Main_Page
 - Downloads: ftp://ftp.alsa-project.org/pub/lib/
-- License: LGPL2.1 or later
+- License: Lesser GPL 2.1 or later
 - Builds with: GNU `make`
 
 ## dbus ##
@@ -19,85 +19,75 @@
 - Builds with: GNU `make`
 
 ## expat ##
-- Homepage:
-- Downloads:
+- Homepage: https://sourceforge.net/projects/expat/
+- Downloads: https://sourceforge.net/projects/expat/files/expat/
 - License: Expat license (X11-ish)
-- Builds with:
+- Builds with: GNU `make`
 
 ## flac ##
-- Homepage:
-- Downloads:
+- Homepage: https://xiph.org/flac/
+- Downloads: http://downloads.xiph.org/releases/flac/
 - License: libFLAC: 3-clause BSD., flac: GPL2 or later
-- Builds with:
+- Builds with: GNU `make`
 
 ## fluidsynth ##
-- Homepage:
-- Downloads:
-- License: LGPL2 or later
-- Builds with:
+- Homepage: https://sourceforge.net/projects/fluidsynth
+- Downloads: https://sourceforge.net/projects/fluidsynth/files
+- License: Library GPL2 or later
+- Builds with: GNU `make`
 
 ## libffi ##
-- Homepage:
-- Downloads:
+- Homepage: http://sourceware.org/libffi/
+- Downloads: ftp://sourceware.org/pub/libffi
 - License: X11
-- Builds with:
+- Builds with: GNU `make`
 
 ## libmikmod ##
-- Homepage:
-- Downloads:
-- License: LGPL2 or later
-- Builds with:
+- Homepage: http://mikmod.shlomifish.org/
+- Downloads: http://mikmod.shlomifish.org/
+- License: Library GPL2 or later
+- Builds with: GNU `make`
 
 ## libogg ##
-- Homepage:
-- Downloads:
-- License: ?
-- Builds with:
+- Homepage: http://www.vorbis.com/
+- Downloads: http://downloads.xiph.org/releases/ogg/
+- License: Modified BSD
+- Builds with: GNU `make`
 
 ## libsndfile ##
-- Homepage:
-- Downloads:
-- License: ?
-- Builds with:
+- Homepage: http://www.mega-nerd.com/libsndfile/
+- Downloads: http://www.mega-nerd.com/libsndfile/#Download
+- License: Lesser GPL 2.1 or later
+- Builds with: GNU `make`
 
 ## libvorbis ##
-- Homepage:
-- Downloads:
-- License: ?
-- Builds with:
+- Homepage: http://www.vorbis.com/
+- Downloads: http://downloads.xiph.org/releases/vorbis/
+- License: Modified BSD
+- Builds with: GNU `make`
 
 ## smpeg ##
-- Homepage:
-- Downloads:
-- License: ?
-- Builds with:
+- Homepage: http://icculus.org/smpeg/
+- Downloads: http://svn.icculus.org/smpeg/
+- License: Library GPL 2 or later
+- Builds with: GNU `make`
 
 ## util-linux ##
-- Homepage:
-- Downloads:
-- License: ?
-- Builds with:
+- Homepage: https://www.kernel.org/pub/linux/utils/util-linux/
+- Downloads: https://www.kernel.org/pub/linux/utils/util-linux/
+- License: GPL2 or later
+- Builds with: GNU `make`
 
 ## libglib ##
-- Homepage:
-- Downloads:
-- License: ?
-- Builds with:
+- Homepage: https://developer.gnome.org/glib/stable/
+- Downloads: http://ftp.gnome.org/pub/GNOME/sources/glib/
+- License: Library and/or Lesser GPL 2 or later
+- Builds with: GNU `make`
 
 ## pkg-config ##
-- Homepage:
-- Downloads:
-- License: ?
-- Builds with:
-
-# Misc #
-
-## Generating lists of files that use SDL ## Generate a list of files that
-refer to SDL with:
-
-    cd ~jenkins/jobs find . -mindepth 3 -maxdepth 3 -type d | grep workspace \
-    | grep -v lib | egrep -v "artifacts|output|temp" | sort \ | xargs grep
-    -rns "SDL" 
-
+- Homepage: http://www.freedesktop.org/wiki/Software/pkg-config/
+- Downloads: http://pkgconfig.freedesktop.org/releases/
+- License: GPL2 or later
+- Builds with: GNU `make`
 
 vim: set filetype=markdown shiftwidth=2 tabstop=2 
