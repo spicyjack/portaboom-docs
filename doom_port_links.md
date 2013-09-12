@@ -38,7 +38,8 @@
 - Downloads: http://sourceforge.net/projects/edge/files/EDGE%20Source%20Code/
 - Command line arguments: http://tinyurl.com/lrhguc (SVN HEAD)
 - License: GPLv2 or later
-- Renderer: software?, OpenGL?
+- Renderer: OpenGL
+  - Last version for the software renderer was 1.29
 - SDL requirements: image, mixer, net  
 
 ## Eternity Engine ##
@@ -48,7 +49,7 @@
 - Command line arguments:
   http://eternity.youfailit.net/index.php?title=List_of_command_line_parameters
 - License: GPLv2
-- Renderer: software?, OpenGL?
+- Renderer: software
 - SDL requirements: mixer, net, video
 
 ## GZDoom ##
@@ -67,7 +68,7 @@
 - Downloads: http://sourceforge.net/projects/odamex/files/
 - Command line arguments: Source code
 - License: GPLv2 or later
-- Renderer: software?, OpenGL?
+- Renderer: software
 - SDL requirements: mixer, video
 
 ## PrBoom ##
@@ -91,8 +92,14 @@
 - Downloads: http://remood.org/?page=download
 - Command line arguments: http://tinyurl.com/nrapnf (SVN HEAD)
 - License: GPLv3 or later (in repo, 08a is still GPL2)
-- Renderer: software?, OpenGL?
+- Renderer: software, OpenGL
 - SDL requirements: ?
+
+## Skulltag ##
+- Homepage: http://www.skulltag.com/
+- Downloads: http://www.skulltag.com/download/
+- License: Sleepycat (X11) with no attribution clause
+- SDL requirements: mixer (?)
 
 ## Vavoom ##
 - Homepage: http://vavoom-engine.com/
@@ -100,15 +107,22 @@
 - Command line arguments:
   http://vavoom-engine.com/wiki/index.php?title=Command_line_arguments
 - License: GPLv2 or later
-- Renderer: software?, OpenGL?
+- Renderer: software, OpenGL
 - SDL requirements: mixer, video
+
+## Zandronum ##
+- Homepage: http://zandronum.com/
+- Downloads: http://zandronum.com/download
+- License: Sleepycat (X11) with no attribution clause
+- Renderer: software, OpenGL
+- SDL requirements: mixer (?)
 
 ## ZDoom ##
 - Homepage: http://zdoom.org/News
 - Downloads: http://zdoom.org/Download
 - Command line arguments: http://zdoom.org/wiki/Command_line_parameters
 - Compiling: http://zdoom.org/wiki/Compile_ZDoom_on_Linux
-- License: [idSoftwareDoomLicense]
+- License: idSoftwareDoomLicense
 - Renderer: software
 - SDL requirements: video
 
