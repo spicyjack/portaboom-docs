@@ -1,5 +1,7 @@
 # Doom Source Ports #
 
+DoomWiki page: http://doomwiki.org/wiki/Comparison_of_Doom_source_ports
+
 ## Chocolate Doom ##
 - Homepage: http://www.chocolate-doom.org/wiki/index.php/Chocolate_Doom
 - Downloads: http://sourceforge.net/projects/chocolate-doom/files/
@@ -92,7 +94,7 @@
 - Downloads: http://remood.org/?page=download
 - Command line arguments: http://tinyurl.com/nrapnf (SVN HEAD)
 - License: GPLv3 or later (in repo, 08a is still GPL2)
-- Renderer: software, OpenGL
+- Renderer: software
 - SDL requirements: ?
 
 ## Skulltag ##
@@ -107,7 +109,7 @@
 - Command line arguments:
   http://vavoom-engine.com/wiki/index.php?title=Command_line_arguments
 - License: GPLv2 or later
-- Renderer: software, OpenGL
+- Renderer: OpenGL, Direct3D
 - SDL requirements: mixer, video
 
 ## Zandronum ##
